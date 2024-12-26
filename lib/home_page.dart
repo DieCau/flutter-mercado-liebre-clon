@@ -16,13 +16,10 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colores.amarillo,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(
-            Icons.menu,
-            color: Colors.black,
-          ),
+          icon: Image.asset('assets/img/opciones.png'),
           onPressed: () {},
+          ),
         ),
-      ),
-    );
+      );
   }
 }
